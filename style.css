@@ -4,7 +4,7 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 100vh;
+
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -50,4 +50,35 @@ h1{
     background-color: lightblue;
     background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465022_sd.jpg;maxHeight=640;maxWidth=550");
     background-size: cover;
+}
+
+
+.active-left .left{
+    width: 75%;
+    height: 100%;
+}
+
+
+.active-left .right{
+    width: 25%;
+    height: 100%;
+}
+
+
+.active-right  .left{
+    width: 25%;
+}
+
+
+.active-left .right{
+    width: 25%;
+}
+
+.active-right  .right {
+    width: 75%;
+}
+
+
+.left, .right {
+    transition: width 2s ease-in-out;
 }
